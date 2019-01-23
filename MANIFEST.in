@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include condos *.css
+recursive-include condos *.csv
+recursive-include condos *.html
+recursive-include condos *.ico
+recursive-include condos *.js
+recursive-include condos *.json
+recursive-include condos *.md
+recursive-include condos *.png
+recursive-include condos *.py
+recursive-include condos *.svg
+recursive-include condos *.txt
+recursive-exclude condos *.pyc
