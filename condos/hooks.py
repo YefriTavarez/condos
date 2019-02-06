@@ -57,8 +57,13 @@ app_license = "General Public License, v3"
 # Installation
 # ------------
 
-# before_install = "condos.install.before_install"
-# after_install = "condos.install.after_install"
+# setup wizard
+setup_wizard_requires = "assets/condos/js/setup_wizard.js"
+setup_wizard_stages = "condos.settings.setup_wizard.setup_wizard.get_setup_stages"
+setup_wizard_test = "condos.settings.setup_wizard.test_setup_wizard.run_setup_wizard_test"
+
+before_install = "condos.install.before_install"
+after_install = "condos.install.after_install"
 
 # Desk Notifications
 # ------------------
@@ -123,3 +128,4 @@ app_license = "General Public License, v3"
 # 	"frappe.desk.doctype.event.event.get_events": "condos.event.get_events"
 # }
 
+boot_session = "condos.bootstrap.add_boot_info"

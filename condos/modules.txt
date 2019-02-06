@@ -2,4 +2,4 @@ Assets
 Relationships
 Financials
 Maintenance
-Setup
+Settings

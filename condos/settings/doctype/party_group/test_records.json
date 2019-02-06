@@ -1,0 +1,14 @@
+[
+ {
+  "party_group_name": "_Test Party Group",
+  "doctype": "Party Group",
+  "is_group": 0,
+  "parent_party_group": "All Party Groups"
+ },
+ {
+  "party_group_name": "_Test Party Group 1",
+  "doctype": "Party Group",
+  "is_group": 0,
+  "parent_party_group": "All Party Groups"
+ }
+]
