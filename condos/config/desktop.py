@@ -52,6 +52,15 @@ def get_data():
 			"label": _("Party")
 		},
 		{
+			"module_name": "Relationships",
+			"_doctype": "Resident",
+			"color": "#98d85b",
+			"icon": "fa fa-universal-access",
+			"type": "link",
+			"link": "List/Resident/List",
+			"label": _("Resident")
+		},
+		{
 			"module_name": "Account",
 			"_doctype": "Account",
 			"color": "#98d85b",
