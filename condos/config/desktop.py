@@ -69,4 +69,30 @@ def get_data():
 			"link": "Tree/Account",
 			"label": _("Account")
 		},
+		{
+			"module_name": "Apartment",
+			"_doctype": "Apartment",
+			"color": "#98d85b",
+			"icon": "fa fa-home",
+			"type": "link",
+			"link": "List/Apartment/List",
+			"label": _("Apartment")
+		},
+		{
+			"module_name": "Condominium",
+			"_doctype": "Condominium",
+			"color": "#98d85b",
+			"icon": "fa fa-building-o",
+			"type": "link",
+			"link": "List/Condominium/List",
+			"label": _("Condominium")
+		},
+		{
+			"module_name": "Relationships",
+			"color": "#ffcc00",
+			"icon": "fa fa-users",
+			"type": "module",
+			"link": "modules/Relationships",
+			"label": _("Relationships")
+		}
 	]
