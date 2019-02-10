@@ -3,3 +3,4 @@ Relationships
 Financials
 Maintenance
 Settings
+Legal
