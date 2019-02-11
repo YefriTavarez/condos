@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Leasing', {
-	refresh: function(frm) {
-
+	tc_name: frm => {
+		frm.call("render_terms_and_conditions_template")
 	}
 });
